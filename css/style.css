@@ -1,0 +1,310 @@
+
+/* header 시작 */
+.header{
+    width:100%;
+    height:150px;
+    position: absolute;
+    top:0;
+    z-index: 10;
+    margin-bottom: 20px;
+    
+}
+.header .gnb-header{
+    background-color: black;
+    color:#fff;
+    width:100%;
+    height:40px;
+}
+.header .gnb-header p{
+    float: left;
+    margin-top:10px;
+    margin-left:100px;
+    font-size: 13px;
+}
+.header .gnb-header .gnb-menu{
+    float: right;
+    margin-right: 100px;
+    margin-top:10px;
+}
+.header .gnb-header .gnb-menu a{
+    color:#fff;
+    text-decoration: none;
+}
+.header .gnb-header .gnb-menu .fab{
+    margin-left: 20px;
+}
+.header .menu-header{
+    width:100%;
+    height:110px;
+    position: relative;
+    background-color: #fff;
+}
+.header .menu-header img{
+    margin-top:30px;
+    margin-left:100px;
+}
+.header .menu-header ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    position: absolute;
+    top:0;
+    margin-left:700px;
+    padding-top: 30px;
+}
+.header .menu-header ul li{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+.header .menu-header ul a{
+    text-decoration: none;
+    color:#000;
+}
+/* content 시작 */
+.content{
+    display: block;
+}
+.content .swiper1{
+    width:100%;
+    height:500px;
+    margin-top:150px;
+}
+.content .swiper1 .swiper-wrapper .swiper-slide{
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.content .swiper1 .swiper-wrapper .swiper-slide img{
+    width:100%;
+
+}
+.content .swiper1 .swiper-button-next{
+    margin-right:100px;
+}
+.content .swiper1 .swiper-button-prev{
+    margin-left: 100px;
+}
+
+.content .inner .inner-service{
+    border:1px solid red;
+    display: inline-flex;
+    padding-right: 30px;
+}
+.content .inner .inner-service img{
+    width:100px;
+    height:100px;
+    padding:10px;
+}
+.content .inner .inner-service .hello{
+    display: block;
+    margin-top:20px;
+    color:red;
+}
+.content .inner .inner-service .information{
+    background-color: #FF7171;
+    color:#fff;
+    padding:10px;
+    margin-top:30px;
+    margin-left:230px;
+    height:40px;
+}
+.content .inner .inner-service .information p{
+    color:#fff;
+    line-height: 40px;
+}
+.content .inner .inner-service .information a{
+    text-decoration: none;
+    text-align: center;
+    line-height: 100px;
+}
+.content .inner .inner-order{
+    background-color: #FF7171;
+    color:#fff;
+    margin-left: 150px;
+    width:400px;
+    text-align: center;
+    line-height: 40px;
+}
+.content .content-main{
+    display:block;
+    position: relative;
+}
+.content .content-main .swiper2{
+    width:100%;
+    height:300px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.content .content-main .swiper2 .swiper-wrapper .swiper-slide{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+.content .content-main .swiper2 .swiper-wrapper .swiper-slide img{
+    object-fit: cover;
+    transform: scale(1.0);
+    transition: transform .5s;
+}
+.content .content-main .swiper2 .swiper-wrapper .swiper-slide img:hover{
+    transform: scale(1.1);
+    transition: transform 1.5s;
+}
+.content .content-main .swiper-button-next{
+    position: absolute;
+    right:0;
+}
+.content .content-main .swiper-button-prev{
+    position: absolute;
+    left:0;
+}
+.content .content-new{
+    display:block;
+    position: relative;
+}
+
+.content .content-new .swiper3{
+    width:100%;
+    height:300px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.content .content-new .swiper3 .swiper-wrapper .swiper-slide{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+.content .content-new .swiper3 .swiper-wrapper .swiper-slide img{
+    object-fit: cover;
+    transform: scale(1.0);
+    transition: transform .5s;
+}
+.content .content-new .swiper3 .swiper-wrapper .swiper-slide img:hover{
+    transform: scale(1.1);
+    transition: transform 1.5s;
+}
+.content .content-new .swiper-button-next{
+    position: absolute;
+    right:0;
+}
+.content .content-new .swiper-button-prev{
+    position: absolute;
+    left:0;
+}
+.content .content-gift{
+    display:block;
+    position: relative;
+}
+.content .content-gift .swiper4{
+    width:100%;
+    height:300px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.content .content-gift .swiper4 .swiper-wrapper .swiper-slide{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+.content .content-gift .swiper4 .swiper-wrapper .swiper-slide img{
+    object-fit: cover;
+    transform: scale(1.0);
+    transition: transform .5s;
+}
+.content .content-gift .swiper4 .swiper-wrapper .swiper-slide img:hover{
+    transform: scale(1.1);
+    transition: transform 1.5s;
+}
+.content .content-gift .swiper-button-next{
+    position: absolute;
+    right:0;
+}
+.content .content-gift .swiper-button-prev{
+    position: absolute;
+    left:0;
+}
+.content .magazine{
+    background-color: #E7E7E7;
+    padding-top: 10px;
+    height:650px;
+}
+.content .magazine h3{
+    text-align: center;
+}
+.content .magazine-img img{
+    margin-right: 20px;    
+}
+.content .magazine .magazine-des .des p{
+    color: #A6A6A6
+}
+.content .magazine .magazine-des .des1{
+    background-color: #fff;
+    text-align: center;
+    padding-top:30px;
+    width:350px;
+    height:100px;
+    margin-right:20px;
+}
+.content .magazine .magazine-des .des2{
+    background-color: #fff;
+    text-align: center;
+    padding-top:30px;
+    width:350px;
+    height:100px;
+    margin-right:20px;
+}
+.content .magazine .magazine-des .des3{
+    background-color: #fff;
+    text-align: center;
+    padding-top:30px;
+    width:350px;
+    height:100px;
+    margin-right:20px;
+}
+.content .magazine .magazine-des .des4{
+    background-color: #fff;
+    text-align: center;
+    padding-top:30px;
+    width:350px;
+    height:100px;
+}
+/* footer 시작 */
+.footer{
+    height:400px;
+    background-color: #292c34;
+    padding-top: 20px;
+}
+.footer .footer-service{
+    border-bottom: 1px solid #fff;
+    position: relative;
+}
+.footer .footer-service p{
+    margin-right: 50px;
+    margin-bottom: 20px;
+    color:#fff;
+}
+.footer .footer-icon{
+    position: absolute;
+    right:40px;
+}
+.footer .footer-info{
+    display: block;
+}
+.footer .footer-info p{
+    color:#fff;
+    line-height: 25px;
+}
+.footer .footer-info span{
+    color:red;
+}
